@@ -1,3 +1,4 @@
+import "package:app_02/MyAppbar.dart";
 import "package:flutter/material.dart";
 
 class MyScaffold extends StatelessWidget {
@@ -10,10 +11,8 @@ class MyScaffold extends StatelessWidget {
     return Scaffold(
 
       // HEADER
-      appBar: AppBar(
-        title: Text("Title of application"),
-        backgroundColor: Colors.greenAccent,
-      ),
+      // Khai báo và dùng MyAppbar
+      appBar: const MyAppbar(),
 
       // BODY
       backgroundColor: Colors.blue,
