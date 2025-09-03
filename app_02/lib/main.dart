@@ -1,5 +1,6 @@
 import 'package:app_02/MyAppbar.dart';
 import 'package:app_02/MyScaffold.dart';
+import 'package:app_02/MyText.dart';
 import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyScaffold(),
+      home: const MyText(),
     );
   }
 }
