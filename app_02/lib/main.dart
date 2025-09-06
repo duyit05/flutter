@@ -3,6 +3,7 @@ import 'package:app_02/MyButton-2.dart';
 import 'package:app_02/MyButton.dart';
 import 'package:app_02/MyColumnAndRow.dart';
 import 'package:app_02/MyContainer.dart';
+import 'package:app_02/MyInkWell.dart';
 import 'package:app_02/MyScaffold.dart';
 import 'package:app_02/MyText.dart';
 import 'package:flutter/material.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyButton_2(),
+      home: const MyInkWell(),
     );
   }
 }
