@@ -4,6 +4,7 @@ import 'package:app_02/MyButton-3.dart';
 import 'package:app_02/MyButton.dart';
 import 'package:app_02/MyColumnAndRow.dart';
 import 'package:app_02/MyContainer.dart';
+import 'package:app_02/MyGestureDetector.dart';
 import 'package:app_02/MyInkWell.dart';
 import 'package:app_02/MyScaffold.dart';
 import 'package:app_02/MyText.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyButton_3(),
+      home: const MyGestureDetector(),
     );
   }
 }
